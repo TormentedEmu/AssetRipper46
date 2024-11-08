@@ -1,3 +1,7 @@
+I made a modified version of AssetRipper to specifically target 7 Days to Die.  The Description below is a copy of the original.  The donation links below go back to ds5678, not me.
+- Veronica "Emu" Jackson aka TormentedEmu or Emu46
+- Love you all
+- 
 # AssetRipper
 
 [![](https://img.shields.io/github/downloads/AssetRipper/AssetRipper/total.svg)](https://github.com/AssetRipper/AssetRipper/releases)
@@ -7,7 +11,7 @@
 
 AssetRipper is a tool for extracting assets from Unity serialized files (*CAB-*\*, *\*.assets*, *\*.sharedAssets*, etc.) and asset bundles (*\*.unity3d*, *\*.bundle*, etc.) and converting them into the native Unity engine format.
 
-# Donations
+# Donations for the creator of the AssetRipper - DS5678
 
 Thank you for considering to support me. I have normal expenses like food, electric, internet, and rent. Your donations help to ensure that I can continue to afford developing this project. Anyone currently donating is entitled to the Donator role on the [Discord server](https://discord.gg/XqXa53W2Yh).
 
