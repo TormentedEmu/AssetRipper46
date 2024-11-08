@@ -1,6 +1,12 @@
 I made a modified version of AssetRipper to specifically target 7 Days to Die.  The Description below is a copy of the original.  The donation links below go back to ds5678, not me.
-- Veronica "Emu" Jackson aka TormentedEmu or Emu46
+I'm usually hanging around at
+# Guppy's official modding discord server:
+
+https://discord.gg/DN33qqM7am
+-
 - Love you all
+- 
+- Veronica "Emu" Jackson aka TormentedEmu or Emu46
 - 
 # AssetRipper
 
