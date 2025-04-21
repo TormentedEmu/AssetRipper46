@@ -124,10 +124,10 @@ namespace AssetRipper.Import.Structure.Platforms
 			CollectMainAssemblies();
 
 			// we know there is a streaming assets folder
-			CollectStreamingAssets(Files);
+			CollectStreamingAssets();
 		}
 
-		protected void CollectAddressablesBundles(DirectoryInfo root, IDictionary<string, string> files)
+		protected void CollectAddressablesBundles(DirectoryInfo root, List<KeyValuePair<string, string>> files)
 		{
 			// search recursively all sub folders here
 			// Should find 15 files currently as of V1.0 b336
@@ -143,7 +143,7 @@ namespace AssetRipper.Import.Structure.Platforms
 			}
 		}
 
-		protected void CollectMiscBundles(DirectoryInfo root, IDictionary<string, string> files)
+		protected void CollectMiscBundles(DirectoryInfo root, List<KeyValuePair<string, string>> files)
 		{
 			// only search for two misc bundles here: Entities and Trees
 			// the only two files without an extension
@@ -160,7 +160,7 @@ namespace AssetRipper.Import.Structure.Platforms
 			}
 		}
 
-		protected void CollectPlugins(DirectoryInfo root, IDictionary<string, string> files)
+		protected void CollectPlugins(DirectoryInfo root, List<KeyValuePair<string, string>> files)
 		{
 			foreach (FileInfo file in root.EnumerateFiles("*.dll", SearchOption.AllDirectories))
 			{

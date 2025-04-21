@@ -8,9 +8,10 @@
 	</PropertyGroup>
 
 	<ItemGroup>
+		<PackageReference Include="AssetRipper.ICSharpCode.Decompiler" Version="9.0.0.7977" />
 		<PackageReference Include="AssetRipper.Text.SourceGeneration" Version="1.2.2" />
 		<PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
-		<PackageReference Include="System.Text.Json" Version="8.0.3" />
+		<PackageReference Include="System.Text.Json" Version="8.0.4" />
 	</ItemGroup>
 
 	<ItemGroup>

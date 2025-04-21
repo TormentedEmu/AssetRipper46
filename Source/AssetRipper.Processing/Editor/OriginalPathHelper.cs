@@ -107,6 +107,7 @@ internal static class OriginalPathHelper
 			}
 			UndoPathLowercasing(asset);
 			SetOverridePathIfShader(asset);
+			SetOverridePathIfTreesBundle(asset);
 		}
 	}
 
@@ -171,6 +172,14 @@ internal static class OriginalPathHelper
 			shader.OverrideDirectory ??= shader.OriginalDirectory;
 			shader.OverrideName ??= shader.OriginalName;
 			shader.OverrideExtension ??= shader.OriginalExtension;
+		}
+	}
+
+	private static void SetOverridePathIfTreesBundle(IUnityObjectBase asset)
+	{
+		if (asset.AssetBundleName is not null && asset.AssetBundleName.Equals("trees", StringComparison.Ordinal) && asset.OriginalDirectory is not null)
+		{
+			asset.OverrideDirectory = asset.OriginalDirectory.Replace("Assets", "Assets\\AssetBundles\\Automatic\\Entities\\Trees");
 		}
 	}
 }

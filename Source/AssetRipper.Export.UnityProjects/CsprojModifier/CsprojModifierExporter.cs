@@ -5,7 +5,7 @@ namespace AssetRipper.Export.UnityProjects;
 
 public class CsprojModifierExporter : IPostExporter
 {
-	public void DoPostExport(GameData gameData, LibraryConfiguration libraryConfiguration)
+	public void DoPostExport(GameData gameData, LibraryConfiguration libraryConfiguration, FileSystem fileSystem)
 	{
 		// export the csharp project modifier folder to the ExportedProject/Packages folder
 

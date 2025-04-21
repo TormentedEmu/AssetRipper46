@@ -62,12 +62,6 @@ public static partial class ReferenceAssemblies
 		"Assembly-UnityScript-firstpass"
 	];
 
-	public static bool IsPredefinedAssembly(string assemblyName)
-	{
-		ArgumentNullException.ThrowIfNull(assemblyName);
-		return PredefinedAssemblies.Contains(assemblyName);
-	}
-
 	public static bool IsReferenceAssembly(string assemblyName)
 	{
 		ArgumentNullException.ThrowIfNull(assemblyName);
